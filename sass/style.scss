@@ -1,7 +1,9 @@
 
 /*font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;*/
-.body{
+@import "base/base";
+@import "abstract/constants";
+body{
     color: #fff;
     font-family: 'Lato', sans-serif;
     font-size: 48pt;
@@ -12,6 +14,7 @@ font-family: 'Open Sans', sans-serif;*/
     margin: auto;
 }
 .main{}
+
 /*
 -----------------------------------------
 header
@@ -64,13 +67,16 @@ header
     margin-left: 30px;
     cursor: pointer;
 }
+.nav__link:hover{
+
+}
 /*
 -----------------------------------------
 intro
 -----------------------------------------
 */
 .intro{
-    background-image: url(/img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -98,7 +104,7 @@ intro
 }
 .intro__subtitle__one{
     font-family: 'Lato', sans-serif;
-    color: #fff;
+    color: rgba(255,255,255,0.9);
     font-size: 48px;
     font-weight: 100;
     padding-bottom: 35px;
@@ -108,8 +114,10 @@ intro
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: 100;;
-    color: #fff;
+    color: rgba(255,255,255,0.9);
     position: relative;
+    margin-bottom: 100px;
+
 }
 .intro__subtitle__two:before{
     content:'';
@@ -131,4 +139,20 @@ intro
     position: absolute; 
     right: -30%;
     top: 10px;  
+}
+/*
+-----------------------------------------
+social
+-----------------------------------------
+*/
+.social{
+    display: flex;
+}
+.social__link{    
+    color: rgba(255,255,255,0.4);
+    margin-left:25px;    
+    transition: color .2s linear;
+}
+.social__link:hover{
+    color: #fff;
 }

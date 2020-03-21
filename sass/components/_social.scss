@@ -1,0 +1,18 @@
+.social {
+  display: flex;
+}
+
+.social__link {
+  color: rgba(255, 255, 255, 0.4);
+  margin-left: 25px;
+  transition: color 0.2s linear;
+  font-size: 1.6rem;
+}
+
+.social__link:first-child {
+  margin-left: 0;
+}
+
+.social__link:hover {
+  color: #fff;
+}

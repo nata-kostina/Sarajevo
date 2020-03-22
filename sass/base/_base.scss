@@ -19,8 +19,9 @@ h1 {
   font-weight: 900;
 }
 
-h2 {}
-
+h2 {
+  
+}
 
 .section__title {
   color: $color-primary;
@@ -30,9 +31,18 @@ h2 {}
   margin-bottom: 30px;
 }
 
+.section__text {
+  font-size: 1.9rem;
+  color: $color-text-dark;
+  text-align: center;
+  font-weight: 100;
+ }
+
 .section__separator {
   display: inline-block;
   position: relative;
+  margin-bottom: 85px;
+
   text-align: center;
   left: 50%;
   transform: translateX(-50%);
@@ -64,7 +74,7 @@ h2 {}
   right: -100px;
 }
 
-.fa-heart {
+.fa-heart {  
   color: #C5C5C5;
   font-size: 2.8rem;
 }

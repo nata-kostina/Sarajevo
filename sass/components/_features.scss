@@ -1,7 +1,60 @@
-.features {
+.features {}
 
+.features_groupe-one {
+  background-color: #EFEFEF;
+  padding-top: 80px;
+  padding-bottom: 115px;
+}
+
+.features_groupe-two {
+  background-color: #FFFFFF;
+  padding-top: 80px;
+  padding-bottom: 115px;
+}
+
+.section__text_features {
+  font-size: 1.5rem;
+  color: #282528;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: center;
 }
 
 .features__inner {
   padding-top: 30px;
+}
+
+.features__item {
+  position: relative;
+}
+
+.features__title {
+  margin-bottom: 25px;
+  padding-left: 50px;
+
+  font-family: "Open Sans";
+  font-size: 2.0rem;
+  font-weight: 600;
+  color: $color-text-dark;
+}
+
+.features__description {
+  padding-left: 50px;
+
+  font-family: "Open Sans";
+  font-size: 1.3rem;
+  color: $color-text-dark;
+  text-align: justify;
+}
+
+.features__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  border: 1px solid $color-primary;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  padding: 10px;
 }

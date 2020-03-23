@@ -27,6 +27,7 @@ h1 {
 }
 
 .section__text {
+  margin-bottom: 80px;
   font-size: 1.9rem;
   color: #062033;
   text-align: center;
@@ -230,6 +231,7 @@ h1 {
 }
 
 .section__text_features {
+  margin-bottom: 70px;
   font-size: 1.5rem;
   color: #282528;
   font-family: "Open Sans";
@@ -273,6 +275,43 @@ h1 {
   padding: 10px;
 }
 
+.additional-feature-item {
+  display: flex;
+  padding-bottom: 90px;
+}
+
+.additional-feature__icon {
+  font-size: 3.3rem;
+  color: #A9A8A9;
+}
+
+.additional-feature__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.additional-feature__title {
+  padding-left: 40px;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  color: #282528;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+.additional-feature__text {
+  padding-left: 40px;
+  font-size: 1.1rem;
+  color: #282528;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: justify;
+}
+
+.phone {
+  display: block;
+}
+
 .layout-3-columns {
   display: flex;
   flex-wrap: wrap;
@@ -289,6 +328,85 @@ h1 {
 }
 .layout-4-column > * {
   flex-basis: 21%;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+}
+
+.filter__item {
+  display: inline-block;
+  padding: 7px 13px;
+  margin-right: 20px;
+  font-size: 1.4rem;
+  color: #062033;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.filter__item:last-child {
+  margin-right: 0px;
+}
+
+.filter__item_active {
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  font-weight: 900;
+  background-color: #4C76FF;
+  border-radius: 6px;
+}
+
+.portfolio__item {
+  position: relative;
+  width: 20%;
+  background: #597BF1;
+}
+
+.portfolio__item:hover .portfolio__info {
+  opacity: 1;
+}
+
+.portfolio__item:hover .portfolio__image {
+  opacity: 0.1;
+}
+
+.portfolio__info {
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.portfolio__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: opacity 0.2s linear;
+}
+
+.portfolio__icon {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.8rem;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+.portfolio__title {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.portfolio__text {
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -13,6 +13,8 @@
 }
 
 .section__text_features {
+  margin-bottom: 70px;
+
   font-size: 1.5rem;
   color: #282528;
   font-family: "Open Sans";
@@ -57,4 +59,43 @@
   width: 17px;
   height: 17px;
   padding: 10px;
+}
+
+.additional-feature-item {
+  display: flex;
+  padding-bottom: 90px;
+}
+
+.additional-feature__icon {
+  font-size: 3.3rem;
+  color: #A9A8A9;
+}
+
+.additional-feature__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.additional-feature__title {
+  padding-left: 40px;
+  margin-bottom: 20px;
+
+  font-size: 1.3rem;
+  color: #282528;
+  font-family: "Open Sans";
+  font-weight: 700; 
+}
+
+.additional-feature__text {
+  padding-left: 40px;
+
+  font-size: 1.1rem;
+  color: #282528;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: justify;
+}
+
+.phone {
+  display: block;
 }
